@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-MVCSampleLab-20150616112217.mdf;Initial Catalog=aspnet-MVCSampleLab-20150616112217;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\fora\\documents\\visual\ studio\ 2013\\Projects\\MVCSampleLab\\MVCSampleLab\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="CustomerContext-Web.config Connection String" description="CustomerContext Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=CustomerContext-20150616112749; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|CustomerContext-20150616112749.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\fora\\documents\\visual\ studio\ 2013\\Projects\\MVCSampleLab\\MVCSampleLab\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CustomerContext']/@connectionString" />
+  </parameter>
+</parameters>

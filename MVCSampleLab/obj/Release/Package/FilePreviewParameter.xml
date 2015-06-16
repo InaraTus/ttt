@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mvcsample7" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\users\\fora\\documents\\visual\ studio\ 2013\\Projects\\MVCSampleLab\\MVCSampleLab\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\users\\fora\\documents\\visual\ studio\ 2013\\Projects\\MVCSampleLab\\MVCSampleLab\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="CustomerContext-Web.config Connection String" description="" value="Data Source=tcp:sja86vlxg4.database.windows.net,1433;Initial Catalog=mvcsampAbnczSQwL;User Id=sp@sja86vlxg4;Password=Inara2617197" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\fora\\documents\\visual\ studio\ 2013\\Projects\\MVCSampleLab\\MVCSampleLab\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CustomerContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:sja86vlxg4.database.windows.net,1433;Initial Catalog=mvcsampAbnczSQwL;User Id=sp@sja86vlxg4;Password=Inara2617197" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\fora\\documents\\visual\ studio\ 2013\\Projects\\MVCSampleLab\\MVCSampleLab\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
